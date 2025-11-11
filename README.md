@@ -1,8 +1,7 @@
 This project demonstrates two important Terraform functions — element() and lookup() — used to automate AWS EC2 instance provisioning dynamically.
 Each function shows how Terraform can use variables and maps/lists to create flexible, reusable infrastructure definitions 🚀.
 
-
-⚙️ Terraform element() Function Overview
+⚙️ 1. element() Function — List-Based Instance Creation
 
 🧩 Purpose:
 The element() function is used to pick a specific value from a list based on its index. It helps in creating dynamic, reusable, and scalable Terraform configurations.
@@ -37,9 +36,7 @@ Select the matching instance type from the instance_type list.
 The element() function enables automated, consistent, and reusable infrastructure by dynamically selecting approved resources (like AMIs or instance types) across multiple environments — ensuring standardization and cost-efficient provisioning at scale ⚡.
 
 ------------------------------------------------------------------------------------------------------------------------------------
-
-
-⚙️ Terraform lookup() Function Overview
+🧭 2. lookup() Function — Map-Based Configuration
 
 🧩 Purpose:
 The lookup() function in Terraform is used to retrieve a value from a map using a specific key.
