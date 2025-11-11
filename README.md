@@ -29,13 +29,6 @@ Select the correct AMI ID from the ami list.
 
 Select the matching instance type from the instance_type list.
 
-📊 Result with your variables:
-
-Index	AMI ID	Instance Type
-0	ami-01bc990364452ab3e	t2.micro
-1	ami-0fc5d935ebf8bc3bc	t2.nano
-
-Terraform automatically maps these based on their index position 🚀.
 
 🏢 At an Organization Level:
 
